@@ -1,0 +1,18 @@
+
+.box{
+    padding: 0 0 20px 0;
+    margin-top: 55px;
+    text-align: center;
+}
+li{
+    list-style-type: none;
+}
+.name{
+    margin-bottom: 0px;
+    size: 55px;
+}
+.icon{
+    cursor: pointer;
+}
+
+    
