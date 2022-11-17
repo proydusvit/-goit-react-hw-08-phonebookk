@@ -95,9 +95,9 @@ export default function RegisterForm() {
                     placeholder="Enter user password"
           />
        
-           
+       <Button  type='submit' variant="outlined">Rergiste</Button> 
       </form>
-       <Button  type='submit' variant="outlined">Rergiste</Button>
+       
       </div>
   )
 }
