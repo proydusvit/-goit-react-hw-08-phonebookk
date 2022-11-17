@@ -56,14 +56,14 @@ export default function RegisterForm() {
   }
 
     return (
-      <div className={style .boxs}>
+      <div className={style.boxs}>
      <form  variant="standard" onSubmit={handleSubmit} autoComplete='on ' >
            
             <InputLabel>
           Username
           </InputLabel>
         <Input type="text"
-          className={style .inputLog}
+          className={style.inputLog}
                     name="name"
                     value={name}
                     placeholder="Enter user name"
@@ -78,7 +78,7 @@ export default function RegisterForm() {
           Email
           </InputLabel>
         <Input type="email"
-          className={style .inputLog}
+          className={style.inputLog}
                     name='email'
                     value={email}
                     onChange={handleChange}
@@ -88,7 +88,7 @@ export default function RegisterForm() {
           Password
           </InputLabel>
         <Input type="password"
-          className={style .inputLog}
+          className={style.inputLog}
                     name='password'
                     value={password}
                     onChange={handleChange}
